@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+u{
+    color: aqua;
+}
+
+h1{
+    color: aqua;
+}
+
+button{
+    border-color: aqua;
+}

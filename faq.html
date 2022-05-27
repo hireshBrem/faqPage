@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="faq.css">
+</head>
+
+<body>
+    <div>
+        <u><h1>Questions:</h1></u>
+        <div class="questions" id="q1">
+            <p>What is Newton's First Law of Motion?</p>
+            <button class="buttons" onclick="showAns('Newtons First Law states that an object will remain stationary or travel at constant velocity unless acted upon.', 'q1Ans')">Show Answer</button>
+            <button onclick="hideAns('q1Ans')">Hide Answer</button>
+            <p id = "q1Ans"></p>
+            
+        </div>
+        <br>
+        <div class="questions" id="q2">
+            <p>What is Newton's Second Law of Motion?</p>
+            <button onclick="showAns('Newtons Second Law states that the resultant force on an object is directly proportional to the acceleration, assuming that mass is constant.', 'q2Ans')">Show Answer</button>
+            <button onclick="hideAns('q2Ans')">Hide Answer</button>
+            <p id="q2Ans"></p>
+        </div>
+        <br>
+        <div class="questions" id="q3">
+            <p>What is Newton's Third Law of Motion?</p>
+            <button onclick="showAns('Newtons Third Law states that every action has an equal and opposite reaction between two different objects.', 'q3Ans')">Show Answer</button>
+            <button onclick="hideAns('q3Ans')">Hide Answer</button>
+            <p id="q3Ans"></p>
+        </div>
+    </div>
+    <script src="faq.js"></script>
+</body>
+</html>
